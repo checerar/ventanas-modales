@@ -1,0 +1,17 @@
+{
+  "name": "ventanas-modales",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "scp -P 22123 -r ./* ernesto@certweb.infenlaces.com:/home/ernesto/ernestophp/sitiophp/ventanas-modales"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.6.0",
+    "prettier": "^2.8.4"
+  }
+}
